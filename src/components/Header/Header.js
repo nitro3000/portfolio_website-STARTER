@@ -3,21 +3,21 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, Span2 } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-      <a style={{ display: "flex", alignItems:"center", color: 'cyan' }}>
-        <DiCssdeck size="3rem"/> <span>Portofolio</span>
+      <a style={{ display: "flex", alignItems:"center", color: 'cyan', marginBottom: '20px' }}>
+        <DiCssdeck size="3rem"/> <Span>Portofolio</Span>
       </a>
       </Link>
     </Div1>
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink style={{color:'skyblue'}}>Projects</NavLink>
+          <NavLink style={{color:'skyblue'}} > <Span2>Projects</Span2> </NavLink>
         </Link>
       </li>
       <li>

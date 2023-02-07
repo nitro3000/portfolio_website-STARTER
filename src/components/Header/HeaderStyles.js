@@ -8,6 +8,7 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -16,6 +17,18 @@ export const Container = styled.div`
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
+`;
+export const Span = styled.span`
+font-size: 2rem;
+`;
+export const Span2 = styled.span`
+&:hover {
+  background-color: #212d45;
+  font-size: 3rem;
+  cursor: pointer;
+  
+}
+
 `;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
@@ -112,7 +125,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
-color: white;
+color: cyan;
 border-radius: 50px;
   padding: 8px;
 &:hover {
