@@ -36,10 +36,10 @@ export const projects = [
     id: 3,
   },
   {
-    title: '.NET',
-    description: "This is a Portfolio created using .NET and Azure cloud services",
+    title: 'Personal Portfolio',
+    description: "This is a simple Portfolio has fully responsive interface, contains forms to fill up the interest in a person Azure cloud services",
     image: '/images/portfolioLandingPage.png',
-    tags: ['ASP.NET MVC', 'C#', 'HTML5'],
+    tags: ['ASP.NET', 'MVC', 'C#', 'HTML5'],
     source: 'https://afportfolio2022.azurewebsites.net',
     visit: 'https://afportfolio2022.azurewebsites.net',
     id: 4,
