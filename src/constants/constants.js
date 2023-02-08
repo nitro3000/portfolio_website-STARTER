@@ -35,6 +35,15 @@ export const projects = [
     visit: 'https://google.com',
     id: 3,
   },
+  {
+    title: '.NET',
+    description: "This is a Portfolio created using .NET and Azure cloud services",
+    image: '/images/portfolioLandingPage.png',
+    tags: ['ASP.NET MVC', 'C#', 'HTML5'],
+    source: 'https://afportfolio2022.azurewebsites.net',
+    visit: 'https://afportfolio2022.azurewebsites.net',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
