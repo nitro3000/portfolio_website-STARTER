@@ -47,9 +47,11 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: '2004-08', text: 'Bachelor of Science Biotechnology  @Bar ilan University Israel ', },
+  { year: '2010-17', text: 'QA @Coca-Cola', },
+  { year: '2018-19', text: 'Started my journey with Java EE @Go2IT ', },
+  { year: '2017-22', text: 'QA @Fierafoods.com', },
+  { year: '2019-20', text: 'Continued develope Java @Conestoga Cambridge ON', },
+  { year: '2021-22', text: 'Web App Developer @triOS college Kitchener ON', },
+  { year: '2023-present', text: 'Full-stack Developer @Growmushroomscanada.ca', },
 ];

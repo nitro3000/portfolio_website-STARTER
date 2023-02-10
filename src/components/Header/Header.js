@@ -22,17 +22,17 @@ const Header = () =>  (
       </li>
       <li>
         <Link href="#tech">
-          <NavLink style={{color:'skyblue'}}>Technologies</NavLink>
+          <NavLink style={{color:'skyblue'}}><Span2>Technologies</Span2></NavLink>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <NavLink style={{color:'skyblue'}}>About</NavLink>
+          <NavLink style={{color:'skyblue'}}><Span2>About</Span2></NavLink>
         </Link>
       </li>
       <li>
         <Link href="#help">
-          <NavLink style={{color:'skyblue'}}>Help</NavLink>
+          <NavLink style={{color:'skyblue'}}><Span2>Help</Span2></NavLink>
         </Link>
       </li>
     </Div2>

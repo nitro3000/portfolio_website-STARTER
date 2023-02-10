@@ -25,10 +25,8 @@ export const Span2 = styled.span`
 &:hover {
   background-color: #212d45;
   font-size: 3rem;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
-
 `;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
@@ -45,6 +43,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
+    
   }
 `;
 export const Div3 = styled.div`
