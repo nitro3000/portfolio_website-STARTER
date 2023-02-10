@@ -51,6 +51,9 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media ${(props) => props.theme.breakpoints.xs} {
+    padding: 5rem;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;

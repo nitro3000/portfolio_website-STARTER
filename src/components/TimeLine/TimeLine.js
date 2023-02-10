@@ -10,9 +10,9 @@ const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
-  // const scroll = (node, left) => {
-  //   return node.scrollTo({ left, behavior: 'smooth' });
-  // }
+  const scroll = (node, left) => {
+    return node.scrollTo({ left, behavior: 'smooth' });
+  }
 
   const handleClick = (e, i) => {
     e.preventDefault();
@@ -32,15 +32,15 @@ const Timeline = () => {
     }
   }
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     scroll(carouselRef.current, 0);
-  //   }
+  // snap back to beginning of scroll when window is resized
+  // avoids a bug where content is covered up if coming from smaller screen
+  useEffect(() => {
+    const handleResize = () => {
+      scroll(carouselRef.current, 0);
+    }
 
-  //   window.addEventListener('resize', handleResize);
-  // }, []);
+    window.addEventListener('resize', handleResize);
+  }, []);
 
   return (
     <Section id="about">
@@ -49,7 +49,7 @@ const Timeline = () => {
       An intelligent, determined, and hard-working Full Stack Developer with a high drive for work ethic. Seeking to utilize my array of techniques, 
       problem solving and organizational skills to achieve company’s long-term goals
       </SectionText>
-      <CarouselContainer ref={carouselRef}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode key ={index} final={index==TOTAL_CAROUSEL_COUNT -1}>
@@ -114,6 +114,7 @@ const Timeline = () => {
 
       </CarouselButton>))}
     </CarouselButtons>
+    <SectionDivider/>
     </Section>
   );
 };
