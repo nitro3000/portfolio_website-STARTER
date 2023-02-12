@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Personal Portfolio',
+    description: "This is a simple Portfolio has fully responsive interface, contains forms to fill up the interest in a person Azure cloud services",
+    image: '/images/portfolioLandingPage.png',
+    tags: ['ASP.NET', 'MVC', 'C#', 'HTML5'],
+    source: 'https://afportfolio2022.azurewebsites.net',
+    visit: 'https://afportfolio2022.azurewebsites.net',
     id: 0,
   },
   {
@@ -36,12 +36,12 @@ export const projects = [
     id: 3,
   },
   {
-    title: 'Personal Portfolio',
-    description: "This is a simple Portfolio has fully responsive interface, contains forms to fill up the interest in a person Azure cloud services",
-    image: '/images/portfolioLandingPage.png',
-    tags: ['ASP.NET', 'MVC', 'C#', 'HTML5'],
-    source: 'https://afportfolio2022.azurewebsites.net',
-    visit: 'https://afportfolio2022.azurewebsites.net',
+    title: 'MERN Memories',
+    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    image: '/images/1.png',
+    tags: ['Mongo', 'Express', 'React', 'Node'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
     id: 4,
   },
 ];
@@ -54,4 +54,12 @@ export const TimeLineData = [
   { year: '2019-2020', text: 'Continued develope Java @Conestoga Cambridge ON', },
   { year: '2021-2022', text: 'Web App Developer @triOS college Kitchener ON', },
   { year: '2022-present', text: 'Full-stack Developer @GrowMushroomsCanada.ca', },
+];
+//exporting to Acomplishments component
+
+export const data = [
+  { number: '', text: ''},
+  { number: '', text: '', },
+  { number: '', text: '', },
+  { number: '', text: '', }
 ];

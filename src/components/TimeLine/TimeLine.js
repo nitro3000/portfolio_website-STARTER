@@ -44,11 +44,13 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+       <SectionDivider/> <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       An intelligent, determined, and hard-working Full Stack Developer with a high drive for work ethic. Seeking to utilize my array of techniques, 
       problem solving and organizational skills to achieve company’s long-term goals
       </SectionText>
+      
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -114,7 +116,7 @@ const Timeline = () => {
 
       </CarouselButton>))}
     </CarouselButtons>
-    <SectionDivider/>
+   
     </Section>
   );
 };

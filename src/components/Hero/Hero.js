@@ -13,7 +13,7 @@ const Hero = () => (
       <SectionText>
         Will bring your application to the next level
       </SectionText>
-      <Button onClick={ () => window.location = ''}> Learn More
+      <Button onClick={ () => window.location = 'mailto:andreyfaigon@gmail.com'}> Hire Me
 
       </Button>
     </LeftSection>

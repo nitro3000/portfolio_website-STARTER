@@ -23,12 +23,12 @@ import { projects } from '../../constants/constants';
 // }];
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
      {/* List of Objects  */}
     <GridContainer>
-      {projects.map(({id, image, title,description, tags, source, visit})=>(
+      {projects.map(({id, image, title, description, tags, source, visit})=>(
         <BlogCard key={id}>
           <Img src={image}/>
           <TitleContent>
