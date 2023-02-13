@@ -18,7 +18,7 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink style={{color:'skyblue'}} > <Span2>Projects</Span2> </NavLink>
+          <NavLink style={{color:'skyblue'}}><Span2>Projects</Span2> </NavLink>
         </Link>
       </li>
       <li>

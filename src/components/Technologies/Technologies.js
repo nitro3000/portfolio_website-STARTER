@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiAtom, DiDatabase, DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiAtom, DiDatabase} from 'react-icons/di';
 import { CgWebsite } from 'react-icons/cg';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -18,11 +18,14 @@ const Technologies = () =>  (
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
           Experiance with 
-          <br/> React.js
+          <br/>React.js
+          <br/>ASP.NET
           <br/>HTML5
           <br/>CSS
           <br/>JavaScript
           <br/>BootStrap
+          <br/>Next.js
+          <br/>php
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -32,11 +35,13 @@ const Technologies = () =>  (
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
           Experiance with 
-          <br/> React.js
-          <br/>HTML5
-          <br/>CSS
-          <br/>JavaScript
-          <br/>BootStrap
+          <br/>SQL
+          <br/>Java
+          <br/>C#
+          <br/>JDBC
+          <br/>Node
+          <br/>Microsoft SQL 
+          <br/>REST API
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -46,12 +51,12 @@ const Technologies = () =>  (
         <ListTitle>UX/UI</ListTitle>
         <ListParagraph>
           Experiance with
-          <br/> Adobe Photoshop and Ilustrator
-          <br/> React.js
-          <br/>HTML5
-          <br/>CSS
-          <br/>JavaScript
-          <br/>BootStrap
+          <br/>Adobe Photoshop
+          <br/>Adobe Illustrator
+          <br/>JavaFX
+          <br/>GUI
+          <br/>WordPress
+          <br/>Woocommerce
         </ListParagraph>
       </ListContainer>
     </ListItem>
