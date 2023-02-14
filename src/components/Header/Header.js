@@ -5,19 +5,21 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, Span2 } from './HeaderStyles';
 
+
 const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-      <a style={{ display: "flex", alignItems:"center", color: 'cyan', marginBottom: '20px' }}>
-        <DiCssdeck size="3rem"/> 
-        <Span>Faigon.Tech</Span>
+      <a style={{ display: "flex", alignItems:"center", color: 'cyan', marginBottom: '30px' }}>
+      <img src="images/FT_Logo@3x.png" width="140" height="100"/> 
+        <Span><img src="images/FaigonTech_logo_1@5x.png" alt="Faigon.Tech" width="200" height="30"/></Span>
       </a>
+      
       </Link>
     </Div1>
     <Div2>
-      <li>
-        <Link href="#projects">
+      <li padding= '2.5rem' >
+        <Link href="#projects" >
           <NavLink style={{color:'skyblue'}}><Span2>Projects</Span2> </NavLink>
         </Link>
       </li>

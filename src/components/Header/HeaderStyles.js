@@ -19,8 +19,11 @@ export const Container = styled.div`
   }
 `;
 export const Span = styled.span`
-font-size: 2rem;
+font-size: 3rem;
+
 `;
+
+
 export const Span2 = styled.span`
 &:hover {
   background-color: #212d45;
@@ -40,6 +43,7 @@ export const Div1 = styled.div`
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
+  
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
@@ -63,8 +67,9 @@ export const Div3 = styled.div`
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
-  line-height: 32px;
+  line-height: 80px;
   color: rgba(255, 255, 255, 0.75);
+  padding: 0.5rem;
   transition: 0.4s ease;
   &:hover {
     color: #fff;
@@ -72,7 +77,7 @@ export const NavLink = styled.a`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
+    padding: 2.5rem;
   }
 `;
 
