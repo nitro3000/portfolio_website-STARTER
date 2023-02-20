@@ -8,6 +8,15 @@ export const projects = [
     visit: 'https://afportfolio2022.azurewebsites.net',
     id: 0,
   },
+  
+ { title: 'Personal Portfolio',
+   description: "This is a simple Portfolio has fully responsive interface, contains forms to fill up the interest in a person Azure cloud services",
+   image: '/images/portfolio_angular.png',
+   tags: ['Angular', 'SCSS', 'TypeScript', 'HTML5'],
+   source: 'https://github.com/nitro3000/portfolio_Angular',
+   visit: 'https://portfolio1.faigon.tech/',
+   id: 5,
+ },
   {
     title: 'E-Commerce',
     description:"This unique and complex webshop  e-commerce applications are made using ready to use plugins, customized plugins code with php.",
@@ -28,7 +37,7 @@ export const projects = [
   },
   {
     title: 'Web Site/Portfolio',
-    description: "Using React, Node.js, Express & MongoDB  builded a Full Stack Application - from start to finish.",
+    description: "Using React, Node.js, Jason  builded a Full Stack Application - from start to finish.",
     image: '/images/reactWebPortfolio.png',
     tags: ['React', 'NextJS', 'JavaScript', 'HTML5'],
     source: 'https://faigon.tech',
@@ -58,15 +67,15 @@ export const projects = [
 export const TimeLineData = [
   { year: '2004-2008', text: 'Bachelor of Science Biotechnology  @Bar ilan University Israel ', },
   { year: '2010-2017', text: 'R&D Manager @Coca-Cola Bottling company Israel', },
-  { year: '2018-2019', text: 'Started my journey with Java EE @Go2IT ', },
-  { year: '2017-2022', text: 'QA and regulatory specialist @Fierafoods.com', },
+  { year: '2018-2019', text: 'Started my journey with Java EE @Go2IT Toronto ON', },
+  { year: '2017-2022', text: 'QA and regulatory specialist @Fierafoods.com Toronto ON', },
   { year: '2019-2020', text: 'Continued develope Java @Conestoga Cambridge ON', },
   { year: '2021-2022', text: 'Web App Developer @triOS college Kitchener ON', },
-  { year: '2022-present', text: 'Full-stack Developer @GrowMushroomsCanada.ca', },
+  { year: '2022-present', text: 'Full-stack Developer @GrowMushroomsCanada.ca Victoria BC', },
 ];
 
 export const AcomplishmentsData = [
-  { number: '7', text: 'Personal Portfolios'},
+  { number: '17', text: 'Personal Portfolios'},
   { number: '2', text: 'Websites', },
   { number: '8', text: 'Web Applications', },
   { number: '24', text: 'Open Source Contributions'}

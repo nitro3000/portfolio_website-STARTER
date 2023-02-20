@@ -18,22 +18,22 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-      <li padding= '2.5rem' >
+      <li id='projectsLi'>
         <Link href="#projects" >
           <NavLink style={{color:'skyblue'}}><Span2>Projects</Span2> </NavLink>
         </Link>
       </li>
-      <li>
+      <li id='techLi'>
         <Link href="#tech">
           <NavLink style={{color:'skyblue'}}><Span2>Technologies</Span2></NavLink>
         </Link>
       </li>
-      <li>
+      <li id='aboutLi'>
         <Link href="#about">
           <NavLink style={{color:'skyblue'}}><Span2>About</Span2></NavLink>
         </Link>
       </li>
-      <li>
+      <li id='contactsLi'>
         <Link href="#contacts">
           <NavLink style={{color:'skyblue'}}><Span2>Contacts</Span2></NavLink>
         </Link>

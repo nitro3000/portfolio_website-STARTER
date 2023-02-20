@@ -7,6 +7,7 @@ export const LeftSection = styled.div`
     width: 80%;
     display: flex;
     flex-direction: column;
+    align-content: center;
 
     margin: 0 auto;
   }
@@ -14,7 +15,7 @@ export const LeftSection = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-
+    align-content: center;
     margin: 0 auto;
   }
 `;
