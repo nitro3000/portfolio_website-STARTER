@@ -10,11 +10,11 @@ export const projects = [
   },
   
  { title: 'Personal Portfolio',
-   description: "This is a simple Portfolio has fully responsive interface, contains forms to fill up the interest in a person Azure cloud services",
+   description: "This is a simple Portfolio has functional and responsive interface, created using Angular",
    image: '/images/portfolio_angular.png',
-   tags: ['Angular', 'SCSS', 'TypeScript', 'HTML5'],
-   source: 'https://github.com/nitro3000/portfolio_Angular',
-   visit: 'https://portfolio1.faigon.tech/',
+   tags: ['Angular ', 'SCSS ', 'TypeScript', ' HTML5'],
+   source: 'https://portfolio1.faigon.tech/',
+   visit: 'https://github.com/nitro3000/portfolio_Angular',
    id: 5,
  },
   {
