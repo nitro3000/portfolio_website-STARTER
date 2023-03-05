@@ -8,14 +8,21 @@ export const projects = [
     visit: 'https://afportfolio2022.azurewebsites.net',
     id: 0,
   },
-  
  { title: 'Personal Portfolio',
    description: "This is a simple Portfolio has functional and responsive interface, created using Angular",
    image: '/images/portfolio_angular.png',
    tags: ['Angular ', 'SCSS ', 'TypeScript', ' HTML5'],
    source: 'https://portfolio1.faigon.tech/',
    visit: 'https://github.com/nitro3000/portfolio_Angular',
-   id: 5,
+   id: 1,
+ },
+ { title: 'YouTube Clone App',
+   description: "This is a Modern YouTube Clone Application created using React, Material UI components and using RapidAPI for fetching data from unlimited sources ",
+   image: 'images/youtubeclone_screenshot.png',
+   tags: ['React ', 'RapidAPI ', 'JSX', 'CSS'],
+   source: 'https://videos.faigon.tech/',
+   visit: 'https://github.com/nitro3000/youtube_clone',
+   id: 2,
  },
   {
     title: 'E-Commerce',
@@ -24,7 +31,7 @@ export const projects = [
     tags: ['WP', 'PHP' , 'WooCommerce'],
     source: 'https://growmushroomscanada.ca',
     visit: 'https://growmushroomscanada.ca',
-    id: 1,
+    id: 3,
   },
   {
     title: 'Web App',
@@ -33,7 +40,7 @@ export const projects = [
       tags: ['ASP.NET Core', 'MVC', 'JavaScript', 'HTML', 'CSS'],
     source: 'https://triosdevelopers.com/~A.Faigon/Numismatic/index.html',
     visit: 'https://triosdevelopers.com/~A.Faigon/Numismatic/index.html',
-    id: 2,
+    id: 4,
   },
   {
     title: 'Web Site/Portfolio',
@@ -42,26 +49,9 @@ export const projects = [
     tags: ['React', 'NextJS', 'JavaScript', 'HTML5'],
     source: 'https://faigon.tech',
     visit: 'https://github.com/nitro3000/portfolio_website-STARTER',
-    id: 4,
+    id: 5,
   },
-  // {
-  //   title: 'Unichat',
-  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: '/images/4.jpg',
-  //   tags: ['React', 'ChatEngine', 'Firebase'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 3,
-  // },
-  // {
-  //   title: 'MERN Memories',
-  //   description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-  //   image: '/images/1.png',
-  //   tags: ['Mongo', 'Express', 'React', 'Node'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 4,
-  // },
+ 
 ];
 
 export const TimeLineData = [
@@ -78,5 +68,5 @@ export const AcomplishmentsData = [
   { number: '17', text: 'Personal Portfolios'},
   { number: '2', text: 'Websites', },
   { number: '8', text: 'Web Applications', },
-  { number: '24', text: 'Open Source Contributions'}
+  { number: '30', text: 'Open Source Contributions'}
 ];

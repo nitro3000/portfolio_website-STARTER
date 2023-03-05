@@ -19,6 +19,7 @@ const Technologies = () =>  (
         <ListParagraph>
           Experiance with 
           <br/>React.js
+          <br/>Angular
           <br/>ASP.NET
           <br/>HTML5
           <br/>CSS
