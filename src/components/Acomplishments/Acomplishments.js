@@ -9,7 +9,7 @@ import { AcomplishmentsData } from '../../constants/constants';
 
 const Acomplishments = () => (
   <Section id="Acomplishments">
-    <SectionDivider/> <br/>
+    {/* <SectionDivider/> <br/> */}
     <SectionTitle>Acomplishments</SectionTitle>
     <Boxes>
       {AcomplishmentsData.map((card, index)=>(

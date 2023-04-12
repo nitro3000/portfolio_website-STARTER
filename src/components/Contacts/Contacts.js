@@ -5,7 +5,7 @@ import { LinkItem, LinkList, LinkColumn } from './ContactsStyles';
 
 const Contacts = () =>  (
 <Section id="contacts"> 
-  <SectionDivider/><br/>
+  {/* <SectionDivider/><br/> */}
   <SectionTitle>My Contacts</SectionTitle>
   <SectionText>
 Please do not hesistate to contact me for any question
