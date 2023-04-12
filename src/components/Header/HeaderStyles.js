@@ -19,29 +19,31 @@ export const Container = styled.div`
   }
 `;
 export const Span = styled.span`
-font-size: 3rem;
-
+font-size: 17px;
+color: #fff
 `;
 
 export const Span2 = styled.span`
 &:hover {
-  background-color: #212d45;
-  font-size: 3rem;
-  cursor: pointer; 
+  color: #fff,
+  cursor: pointer;
+  
+  
+   
 }
 `;
 
-export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
-  }
-`;
+// export const Div1 = styled.div`
+//   grid-area: 1 / 1 / 2 / 2;
+//   display: flex;
+//   flex-direction: row;
+//   align-content: center;
+//   @media ${(props) => props.theme.breakpoints.sm} {
+//     grid-area: 1 / 1 / 2 / 3;
+//   }
+// `;
 export const Div2 = styled.div`
-  grid-area: 2 / 2 / 3 / 5; 
+  grid-area: 1 / 1 / 3 / 5; 
   display: flex;
   justify-content: space-around;
   
@@ -147,7 +149,7 @@ color: cyan;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
+   
     transform: scale(1.2);
     cursor: pointer;
     

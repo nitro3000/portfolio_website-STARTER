@@ -8,7 +8,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, Span2 } from '
 
 const Header = () =>  (
   <Container>
-    <Div1>
+    {/* <Div1>
       <Link href="/">
       <a style={{ display: "flex", alignItems:"center", color: 'cyan', marginBottom: '30px' }}>
       <img src="images/FT_Logo@3x.png" width="140" height="100"/> 
@@ -16,7 +16,7 @@ const Header = () =>  (
       </a>
       
       </Link>
-    </Div1>
+    </Div1> */}
     <Div2>
       <li id='projectsLi'>
         <Link href="#projects" >

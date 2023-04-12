@@ -43,13 +43,16 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
-       <SectionDivider/> <br/>
+    <Section>
+    {/* <Section id="about">
+       <SectionDivider/> <br/> 
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       An intelligent, determined, and hard-working Full Stack Developer with a high drive for work ethic. Seeking to utilize my array of techniques, 
       problem solving and organizational skills to achieve company’s long-term goals
-      </SectionText>
+      </SectionText>  */}
+      <SectionTitle>Work Experience and Education</SectionTitle>
+      <br/>
       
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

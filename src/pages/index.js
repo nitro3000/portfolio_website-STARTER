@@ -7,6 +7,7 @@ import Timeline from '../components/TimeLine/TimeLine';
 import Contacts from '../components/Contacts/Contacts';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import AboutMe from '../components/AboutMe/AboutMe';
 
 
 
@@ -17,10 +18,13 @@ const Home = () => {
         <Hero />
         <BgAnimation />
       </Section>
-      <Projects />
+      <AboutMe />
+      <Acomplishments />
       <Technologies />
       <Timeline />
-      <Acomplishments />
+      <Projects />
+     
+      
       <Contacts/>
 
     </Layout>
