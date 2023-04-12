@@ -134,15 +134,17 @@ export const ListIcon = styled.img`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: rgba(0, 255, 255);
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
-	left: 0;
+	left: 10px;
 
 	&:hover {
-		color: #fff;
-		left: 6px;
+    font-size: 20px;
+		color: rgba(255, 255, 255, 0.8);
+		left: 10px;
+
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
@@ -162,7 +164,7 @@ export const LinkItem = styled.a`
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
-	grid-template-columns: repeat(3, minmax(85px, 220px));
+	grid-template-columns: repeat(2, minmax(85px, 300px));
 	gap: 40px;
   padding: 40px 0 28px;
 
@@ -184,8 +186,8 @@ export const LinkList = styled.ul`
 
 export const LinkColumn = styled.div`
 	display: flex;
-	flex-direction: column;
-	max-width: 220px;
+	flex-direction: row;
+	max-width: 300px;
 	width: 100%;
 `
 export const LinkTitle = styled.h4`

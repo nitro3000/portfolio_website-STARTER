@@ -7,22 +7,13 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
-      {/* <LinkList>
-      <LinkColumn>
-      <LinkTitle>Call</LinkTitle>
-      <LinkItem href='tel:647-870-2870'>(647)870-2870</LinkItem>
-      </LinkColumn>
-      <LinkColumn>
-      <LinkTitle>Email</LinkTitle>
-      <LinkItem href='mailto:andreyfaigon@gmail.com'>andreyfaigon@gmail.com</LinkItem>
-      </LinkColumn>
-      </LinkList> */}
 
-      <SocialIconsContainer>
+
+      {/* <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Innovative solution for any project</Slogan>
         </CompanyContainer>
-      </SocialIconsContainer>
+      </SocialIconsContainer> */}
 
       <SocialIconsContainer>
         <SocialIcons href='https://github.com/nitro3000'>
@@ -35,7 +26,7 @@ const Footer = () => {
         <AiFillInstagram size="3rem"/>
       </SocialIcons>
       </SocialIconsContainer>
-      <footer>&copy; Copyright 2022 - {new Date(). getFullYear() }  All Rights Reserved <a style={{color: 'white'}} href='https://faigon.tech'>@faigon.tech</a></footer>
+      {/* <footer>&copy; Copyright 2022 - {new Date(). getFullYear() }  All Rights Reserved <a style={{color: 'white'}} href='https://faigon.tech'>@faigon.tech</a></footer> */}
     </FooterWrapper>
   );
 };

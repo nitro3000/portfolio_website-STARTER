@@ -25,7 +25,7 @@ export const LinkItem = styled.a`
 
 	&:hover {
 		color: #fff;
-		left: 6px;
+		left: 0px;
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
@@ -56,7 +56,7 @@ justify-content: space-between;
 @media ${props => props.theme.breakpoints.sm}{
   display: flex;
 	width: 100%;
-  flex-direction: column;
+  flex-direction: row;
 }
 `
 

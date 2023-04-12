@@ -10,10 +10,10 @@ const Hero = () => (
       <SectionTitle main center>
         Andrey Faigon <br/> Full-Stack Developer
       </SectionTitle>
-      <SectionText>
+      {/* <SectionText>
         Will bring your application to the next level
-      </SectionText>
-      <Button onClick={ () => window.location = 'mailto:andreyfaigon@gmail.com'}> Hire Me
+      </SectionText> */}
+      <Button onClick={ () => window.location = 'mailto:andreyfaigon@gmail.com'}>  Contact me
 
       </Button>
     </LeftSection>

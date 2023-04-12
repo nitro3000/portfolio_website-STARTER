@@ -25,33 +25,34 @@ font-size: 3rem;
 
 export const Span2 = styled.span`
 &:hover {
-  background-color: #212d45;
-  font-size: 3rem;
+  
+  color:#fff;
   cursor: pointer; 
 }
 `;
 
-export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
-  }
-`;
+// export const Div1 = styled.div`
+//   grid-area: 1 / 1 / 2 / 2;
+//   display: flex;
+//   flex-direction: row;
+//   align-content: center;
+//   @media ${(props) => props.theme.breakpoints.sm} {
+//     grid-area: 1 / 1 / 2 / 3;
+//   }
+// `;
 export const Div2 = styled.div`
-  grid-area: 2 / 2 / 3 / 5; 
+  grid-area: 1 / 1 / 1 / 5; 
   display: flex;
   justify-content: space-around;
   
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5; 
+    grid-area: 1 / 2 / 1 / 5; 
     display: flex;
     justify-content: space-around;
   }
   @media ${(props) => props.theme.breakpoints.xs} {
-    padding: 15px;  
+    grid-area: 1 / 2 / 1 / 6; 
+      
   }
 `;
 export const Div3 = styled.div`
@@ -61,12 +62,12 @@ export const Div3 = styled.div`
   align-items: center;
 
   @media ${(props) => props.theme.breakpoints.xs} {
-    padding-Top: 5rem;
+    padding-Top: 0rem;
     align-items: center;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    padding-Top: 5rem;
+    padding-Top: 0rem;
     grid-area: 1 / 6 / 2 / 6
 `;
 
@@ -147,7 +148,7 @@ color: cyan;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
+   
     transform: scale(1.2);
     cursor: pointer;
     

@@ -1,12 +1,13 @@
 import React from 'react';
 import { DiAtom, DiDatabase} from 'react-icons/di';
 import { CgWebsite } from 'react-icons/cg';
+import { VscGear } from "react-icons/vsc";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
 <Section id="tech"> 
-  <SectionDivider/><br/>
+  {/* <SectionDivider/><br/> */}
   <SectionTitle>Technologies</SectionTitle>
   <SectionText>
     I've worked with a range a technologies in the web development world From Back-end To Design
@@ -17,47 +18,53 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
-          Experiance with 
-          <br/>React.js
+          <br/>React.Js
           <br/>Angular
           <br/>ASP.NET
-          <br/>HTML5
-          <br/>CSS
           <br/>JavaScript
-          <br/>BootStrap
-          <br/>Next.js
-          <br/>php
+          <br/>HTML5
+          <br/>PHP
+        </ListParagraph>
+      </ListContainer>
+    </ListItem>
+    <ListItem>
+      <VscGear size={"3rem"}/>
+      <ListContainer>
+        <ListTitle>Back-End</ListTitle>
+        <ListParagraph>
+          <br/>Java
+          <br/>C#
+          <br/>NodeJs
+          <br/>JSON
+          <br/>RESTfullAPI
+          <br/>RapidAPI
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
       <DiDatabase size={"3rem"}/>
       <ListContainer>
-        <ListTitle>Back-End</ListTitle>
+        <ListTitle>Data Base</ListTitle>
         <ListParagraph>
-          Experiance with 
-          <br/>SQL
-          <br/>Java
-          <br/>C#
-          <br/>JDBC
-          <br/>Node
           <br/>Microsoft SQL 
-          <br/>REST API
+          <br/>MySQL
+          <br/>Mongo
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
-      <CgWebsite size={"2rem"}/>
+      <CgWebsite size={"3rem"}/>
       <ListContainer>
         <ListTitle>UX/UI</ListTitle>
         <ListParagraph>
-          Experiance with
-          <br/>Adobe Photoshop
-          <br/>Adobe Illustrator
+          <br/>Angular Materials
+          <br/>BootStrap
+          <br/>Next.js
+          <br/>CSS          
           <br/>JavaFX
           <br/>GUI
+          <br/>Adobe Creative Cloud
           <br/>WordPress
-          <br/>Woocommerce
         </ListParagraph>
       </ListContainer>
     </ListItem>
