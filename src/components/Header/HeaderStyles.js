@@ -24,8 +24,10 @@ color: #fff
 `;
 
 export const Span2 = styled.span`
+font-size: 20px;
 &:hover {
-  color: #fff,
+  font-size: 20px;
+  color: #fff;
   cursor: pointer;
   
   

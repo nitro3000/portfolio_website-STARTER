@@ -29,8 +29,8 @@ const Header = () =>  (
         </Link>
       </li>
       <li id='aboutLi'>
-        <Link href="#about">
-          <NavLink style={{color:'skyblue'}}><Span2>About</Span2></NavLink>
+        <Link href="#about_me">
+          <NavLink style={{color:'skyblue'}}><Span2>About Me</Span2></NavLink>
         </Link>
       </li>
       <li id='contactsLi'>
