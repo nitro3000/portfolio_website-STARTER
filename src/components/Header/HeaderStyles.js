@@ -19,19 +19,15 @@ export const Container = styled.div`
   }
 `;
 export const Span = styled.span`
-font-size: 17px;
-color: #fff
+font-size: 3rem;
+
 `;
 
 export const Span2 = styled.span`
-font-size: 20px;
 &:hover {
-  font-size: 20px;
-  color: #fff;
-  cursor: pointer;
   
-  
-   
+  color:#fff;
+  cursor: pointer; 
 }
 `;
 
@@ -45,17 +41,18 @@ font-size: 20px;
 //   }
 // `;
 export const Div2 = styled.div`
-  grid-area: 1 / 1 / 3 / 5; 
+  grid-area: 1 / 1 / 1 / 5; 
   display: flex;
   justify-content: space-around;
   
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5; 
+    grid-area: 1 / 2 / 1 / 5; 
     display: flex;
     justify-content: space-around;
   }
   @media ${(props) => props.theme.breakpoints.xs} {
-    padding: 15px;  
+    grid-area: 1 / 2 / 1 / 6; 
+      
   }
 `;
 export const Div3 = styled.div`
@@ -65,12 +62,12 @@ export const Div3 = styled.div`
   align-items: center;
 
   @media ${(props) => props.theme.breakpoints.xs} {
-    padding-Top: 5rem;
+    padding-Top: 0rem;
     align-items: center;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    padding-Top: 5rem;
+    padding-Top: 0rem;
     grid-area: 1 / 6 / 2 / 6
 `;
 
