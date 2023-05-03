@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'AI and 3D T-shirt ',
-    description: "This is a simple Portfolio has fully responsive interface, contains forms to fill up the interest in a person Azure cloud services",
+    title: 'AI-Powered 3D Website ',
+    description: "Animated 3D model use AI, file uploader or color picker to create cutomized logo and/or color for tshirt",
     image: '/images/3D_Tshirt_app_Screenshot.png',
-    tags: ['React', 'openAI API', 'Mongoose', 'HTML5'],
+    tags: ['MERN stack', 'openAI','TailwindCSS', 'ThreeJS'],
     source: 'https://github.com/nitro3000/Tshirt_3Dch',
     visit: 'https://tshit.faigon.tech',
     id: 0,
