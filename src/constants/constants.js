@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'AI and 3D T-shirt ',
+    description: "This is a simple Portfolio has fully responsive interface, contains forms to fill up the interest in a person Azure cloud services",
+    image: '/images/3D_Tshirt_app_Screenshot.png',
+    tags: ['React', 'openAI API', 'Mongoose', 'HTML5'],
+    source: 'https://github.com/nitro3000/Tshirt_3Dch',
+    visit: 'https://tshit.faigon.tech',
+    id: 0,
+  },
+  {
     title: 'Personal Portfolio',
     description: "This is a simple Portfolio has fully responsive interface, contains forms to fill up the interest in a person Azure cloud services",
     image: '/images/portfolioLandingPage.png',
     tags: ['ASP.NET', 'MVC', 'C#', 'HTML5'],
     source: 'https://afportfolio2022.azurewebsites.net',
     visit: 'https://afportfolio2022.azurewebsites.net',
-    id: 0,
+    id: 1,
   },
  { title: 'Personal Portfolio',
    description: "This is a simple Portfolio has functional and responsive interface, created using Angular",
@@ -14,7 +23,7 @@ export const projects = [
    tags: ['Angular ', 'SCSS ', 'TypeScript', ' HTML5'],
    source: 'https://portfolio1.faigon.tech/',
    visit: 'https://github.com/nitro3000/portfolio_Angular',
-   id: 1,
+   id: 2,
  },
  { title: 'YouTube Clone App',
    description: "This is a Modern YouTube Clone Application created using React, Material UI components and using RapidAPI for fetching data from unlimited sources ",
@@ -22,7 +31,7 @@ export const projects = [
    tags: ['React ', 'RapidAPI ', 'JSX', 'CSS'],
    source: 'https://videos.faigon.tech/',
    visit: 'https://github.com/nitro3000/youtube_clone',
-   id: 2,
+   id: 3,
  },
   {
     title: 'E-Commerce',
@@ -31,7 +40,7 @@ export const projects = [
     tags: ['WP', 'PHP' , 'WooCommerce'],
     source: 'https://growmushroomscanada.ca',
     visit: 'https://growmushroomscanada.ca',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Web App',
@@ -40,7 +49,7 @@ export const projects = [
       tags: ['ASP.NET Core', 'MVC', 'JavaScript', 'HTML', 'CSS'],
     source: 'https://triosdevelopers.com/~A.Faigon/Numismatic/index.html',
     visit: 'https://triosdevelopers.com/~A.Faigon/Numismatic/index.html',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Web Site/Portfolio',
@@ -49,7 +58,7 @@ export const projects = [
     tags: ['React', 'NextJS', 'JavaScript', 'HTML5'],
     source: 'https://faigon.tech',
     visit: 'https://github.com/nitro3000/portfolio_website-STARTER',
-    id: 5,
+    id: 6,
   },
  
 ];
