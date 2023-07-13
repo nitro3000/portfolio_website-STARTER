@@ -23,7 +23,6 @@ const Technologies = () =>  (
           <br/>ASP.NET
           <br/>JavaScript
           <br/>HTML5
-          <br/>PHP
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -34,7 +33,7 @@ const Technologies = () =>  (
         <ListParagraph>
           <br/>Java
           <br/>C#
-          <br/>NodeJs
+          <br/>Node.Js
           <br/>JSON
           <br/>RESTfullAPI
           <br/>RapidAPI
@@ -48,7 +47,7 @@ const Technologies = () =>  (
         <ListParagraph>
           <br/>Microsoft SQL 
           <br/>MySQL
-          <br/>Mongo
+          <br/>MongoDB
         </ListParagraph>
       </ListContainer>
     </ListItem>
